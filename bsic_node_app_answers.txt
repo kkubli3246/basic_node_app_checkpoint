@@ -1,0 +1,18 @@
+>What is a Node module?
+
+A: A Node module is a set of functions to include in your application.
+
+>What is the main difference between exports and module.exports?
+
+A: 
+- **module.exports** - overwrites the module.exports object reference, can be reassigned to anything.
+
+- **exports** - is a reference to module.exports
+
+>Why is using exports recommended?
+
+A: ```export``` is recommended because it creates a reference to module.exports and cannot reassign module.exports. exports is recommended unless you are spesifically needs to return an object type.
+
+###Programming Question
+
+>1.
